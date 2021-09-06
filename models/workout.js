@@ -19,7 +19,7 @@ const workouts = new Schema ({
         default: 0
     },
     reps: {
-        type: Number.EPSILON,
+        type: Number,
         default: 0
     },
     sets: {
